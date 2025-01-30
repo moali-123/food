@@ -1,0 +1,14 @@
+#filter_input{
+    margin-bottom: 20px;
+    .ant-input-affix-wrapper{
+        height: 46px;
+    }
+    .ant-input-affix-wrapper >input.ant-input{
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+}

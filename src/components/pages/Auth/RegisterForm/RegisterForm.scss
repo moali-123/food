@@ -1,0 +1,35 @@
+#register_form{
+    .ant-input-number-affix-wrapper{
+        width: 100%;
+    }
+    .ant-input-number-outlined{
+        height: 46px;
+        padding: 4px 11px;
+        border-color: transparent;
+        background-color: #f7f7f7;
+    }
+    .ant-input-number .ant-input-number-input{
+        height: 38px;
+    }
+    .ant-input-number-outlined:focus, 
+    .ant-input-number-outlined:focus-within{
+        border-color: var(--main_green_color);
+        background-color: #f7f7f7;
+    }
+    .ant-input-number-affix-wrapper:hover .ant-input-number-suffix{
+        margin-inline-end: 30px !important;
+        transition: all 0.2s linear;
+    }
+    .ant-select-single{
+        height: 46px;
+    }
+    .ant-select-selector{
+        border-color: transparent;
+        background-color: #f7f7f7;
+    }
+    .ant-select-selector:focus, 
+    .ant-select-selector:focus-within{
+        border-color: var(--main_green_color);
+        background-color: #f7f7f7;
+    }
+}

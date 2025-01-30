@@ -1,0 +1,90 @@
+/** ====================
+ *  Auth css
+=======================*/
+#auth_container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(../../assets/images/png/auth-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      51.22deg,
+      rgba(55, 140, 47, 0.63) -22.39%,
+      rgba(0, 0, 0, 0.6237) 61.76%
+    );
+  }
+  .ant-input-affix-wrapper {
+    height: 46px;
+    border-color: transparent;
+    background-color: #f7f7f7;
+  }
+  .ant-input-outlined:hover,
+  .ant-input-outlined:focus,
+  .ant-input-outlined:focus-within {
+    border-color: var(--main_green_color);
+    background-color: #f7f7f7;
+  }
+  .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+    border-color: #ff4d4f;
+    background-color: #f7f7f7;
+  }
+  :lang(en) .ant-form-item-with-help .ant-form-item-explain,
+  :lang(en) .ant-input-affix-wrapper > input.ant-input,
+  :lang(en) .ant-input-affix-wrapper > textarea.ant-input {
+    font-family: "Poppins", sans-serif !important;
+  }
+  .ant-input-affix-wrapper .ant-input-prefix {
+    padding-inline-end: 8px;
+    margin-inline-end: 10px;
+    font-size: 21px;
+    color: #8391a1;
+    border-inline-end: 1px solid #d9d9d9;
+  }
+  .ant-input-number-affix-wrapper .ant-input-number-prefix {
+    padding-inline-end: 8px;
+    margin-inline-end: 10px;
+    font-size: 21px;
+    color: #8391a1;
+    border-inline-end: 1px solid #d9d9d9;
+  }
+  .choose-lang{
+    position: absolute;
+    top: 50px;
+    z-index: 9999;
+    inset-inline-end: 50px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    span{
+      display: flex;
+      gap: 10px;
+      color: #fff;
+      &:lang(ar){
+        font-weight: 600;
+      }
+      &:lang(en){
+        text-transform: capitalize;
+      }
+      img{
+        width: 25px;
+        height: 25px;
+      }
+    }
+    
+  }
+}

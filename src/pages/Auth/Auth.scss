@@ -1,0 +1,56 @@
+.small_bx{
+    width: 700px;
+}
+.big_bx{
+    width: 900px;
+    margin: 40px 0;
+}
+.submit_btn{
+    height: 46px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--main_green_color);
+    &:lang(en){
+        font-family: "Poppins", sans-serif;
+    }
+    &:lang(ar){
+        font-family: "Tajawal", sans-serif;
+    }
+    &:hover{
+        background-color: var(--main_dark_color) !important;
+    }
+    &:disabled:hover{
+        background-color: #f5f5f5 !important;
+    }
+}
+.back_btn{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    color: var(--main_green_color);
+}
+#login_form{
+    .links_bx a{
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+}
+
+
+
+/** ====================
+ *  Responsive
+=======================*/
+@media screen and (max-width: 768px) {
+    .big_bx,
+    .small_bx{
+        width: 80%;
+    }
+}

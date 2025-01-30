@@ -1,0 +1,11 @@
+/*--- Banner section ---*/
+.banner-section{
+    width: 100%;
+    height: calc(100vh - 150px);
+    &:lang(en){
+        font-family: "Poppins", sans-serif;
+    }
+    &:lang(ar){
+        font-family: "Tajawal", sans-serif;
+    }
+}

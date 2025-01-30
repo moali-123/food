@@ -1,0 +1,128 @@
+#recipe_data_page{
+    .title_bx{
+        padding: 30px 50px;
+        margin-bottom: 40px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #F0FFEF;
+        h3{
+            font-size: 1.2rem;
+            color: #1F263E;
+            font-weight: 600;
+            margin-bottom: 10px;
+            &:lang(en){
+                font-family: "Poppins", sans-serif;
+            }
+            &:lang(ar){
+                font-family: "Tajawal", sans-serif;
+            }
+            .color{
+                color: #009247;
+            }
+        }
+        p{
+            color: #323C47;
+            &:lang(en){
+                font-family: "Poppins", sans-serif;
+            }
+            &:lang(ar){
+                font-family: "Tajawal", sans-serif;
+            }
+        }
+        .add_btn{
+            padding: 10px 40px;
+            border-radius: 6px;
+            color: #fff;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            background-color: #009247;
+            &:lang(en){
+                font-family: "Poppins", sans-serif;
+            }
+            &:lang(ar){
+                font-family: "Tajawal", sans-serif;
+                img{
+                    transform: rotate(180deg);
+                }
+            }
+            img{
+                width: 15px;
+            }
+        }
+    }
+
+    .recipe_form{
+        .ant-input-textarea-affix-wrapper.ant-input-affix-wrapper,
+        textarea.ant-input{
+            height: auto;
+        }
+        .ant-input-number-affix-wrapper{
+            width: 100%;
+        }
+        .ant-input-number-outlined{
+            height: 46px;
+            border-color: transparent;
+            background-color: #f7f7f7;
+        }
+        .ant-input-number .ant-input-number-input{
+            height: 46px;
+        }
+        .ant-input-number-outlined:focus, 
+        .ant-input-number-outlined:focus-within{
+            border-color: var(--main_green_color);
+            background-color: #f7f7f7;
+        }
+        .ant-input-number-affix-wrapper:hover .ant-input-number-suffix{
+            margin-inline-end: 30px !important;
+            transition: all 0.2s linear;
+        }
+        .ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+            height: 46px;
+            border-color: transparent;
+            background-color: #f7f7f7;
+        }
+        .ant-select-single{
+            height: 46px;
+        }
+        :lang(en) .ant-select-single .ant-select-selector{
+            font-family: "Poppins", sans-serif !important;
+        }
+        .ant-input-affix-wrapper {
+            height: 46px;
+            border-color: transparent;
+            background-color: #f7f7f7;
+          }
+          .ant-input-outlined:hover,
+          .ant-input-outlined:focus,
+          .ant-input-outlined:focus-within {
+            border-color: var(--main_green_color);
+            background-color: #f7f7f7;
+          }
+          .ant-input-outlined.ant-input-status-error:not(.ant-input-disabled) {
+            border-color: #ff4d4f;
+            background-color: #f7f7f7;
+          }
+          :lang(en) .ant-form-item-with-help .ant-form-item-explain,
+          :lang(en) .ant-input-affix-wrapper > input.ant-input,
+          :lang(en) .ant-input-affix-wrapper > textarea.ant-input {
+            font-family: "Poppins", sans-serif !important;
+          }
+          .ant-input-affix-wrapper .ant-input-prefix {
+            padding-inline-end: 8px;
+            margin-inline-end: 10px;
+            font-size: 21px;
+            color: #8391a1;
+            border-inline-end: 1px solid #d9d9d9;
+          }
+        .form_action_btns{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+    }
+}

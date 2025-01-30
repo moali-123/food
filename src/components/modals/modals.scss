@@ -1,0 +1,96 @@
+/**----- Confirm Delete -----**/
+#confirm_delete_modal{
+    h3{
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 600;
+        color: #494949;
+        margin-bottom: 10px;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+    p{
+        color: #49494999;
+        text-align: center;
+        margin-bottom: 30px;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+    .img_holder{
+        text-align: center;
+        margin: 15px 0;
+        img{
+            display: inline-block;
+        }
+    }
+    .confirm_btn{
+        color: #CC0000;
+        height: 46px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: 500;
+        border-radius: 6px;
+        border: 1px solid #CC0000;
+        background-color: #fff;
+        text-align: center;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+}
+
+/**----- Add Category -----**/
+#add_category_modal{
+    h3{
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 600;
+        color: #494949;
+        margin-bottom: 10px;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+    p{
+        color: #49494999;
+        text-align: center;
+        margin-bottom: 30px;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+    .confirm_btn{
+        color: #fff;
+        height: 46px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-weight: 500;
+        border-radius: 6px;
+        border: 1px solid #009247;
+        background-color: #009247;
+        text-align: center;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+#sideBar{
+    .logo_bx{
+        max-width: 100px;
+        padding-top: 30px;
+        padding-inline-start: 20px;
+        margin-bottom: 40px;
+    }
+    .ant-menu-item-selected{
+        border-radius: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        border-inline-start: 4px solid #009247;
+        background: rgba(0, 146, 77, 0.1);
+    }
+    .ant-menu-title-content{
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+    .ant-menu-dark, 
+    .ant-menu-dark>.ant-menu,
+    .ant-layout-sider{
+        background: #1F263E;
+    }
+    .ant-layout-sider{
+        &:lang(en){
+            border-top-right-radius: 50px;
+        }
+        &:lang(ar){
+            left: unset;
+            right: 0;
+            border-top-left-radius: 50px;
+        }
+    }
+}
+.closed_bar{
+    #sideBar{
+        .logo_bx{
+            width: 80px;
+            padding: 30px 7px 0;
+        }
+    }
+}

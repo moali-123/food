@@ -1,0 +1,29 @@
+#main_header{
+    .ant-space-item{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .choose-lang{
+        cursor: pointer;
+        span{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            .flag_img{
+                width: 27px;
+                height: 27px;
+            }
+            &:lang(ar){
+                font-weight: 600;
+                font-size: 0.96rem;
+                text-transform: capitalize;
+                font-family: "Poppins", sans-serif;
+            }
+            &:lang(en){
+                font-weight: 600;
+                font-size: 1rem;
+                font-family: "Tajawal", sans-serif;
+            }
+        }
+    }
+}

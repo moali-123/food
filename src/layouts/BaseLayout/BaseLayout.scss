@@ -1,0 +1,35 @@
+/** ====================
+ *  Base Layout css
+=======================*/
+.open_bar{
+    margin-inline-start: 250px;
+    .ant-layout-sider{
+        width: 250px !important;
+        min-width: 250px !important;
+        max-width: 250px !important;
+    }
+}
+.closed_bar{
+    margin-inline-start: 80px;
+}
+#user_layout{
+    .footer_bx{
+        text-align: center;
+        &:lang(en){
+            font-family: "Poppins", sans-serif;
+        }
+        &:lang(ar){
+            font-family: "Tajawal", sans-serif;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .ant-layout-sider-collapsed{
+        inset-inline-start: -80px !important;
+    }
+    .closed_bar{
+        margin-inline-start: 0px;
+    }
+}
